@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.example.calculator.CalculatorTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2018-09-20T04:27:54" hostname="Neos-MacBook-Air.local" time="0.007">
+  <properties/>
+  <testcase name="multiply returns the correct result" classname="org.example.calculator.CalculatorTest" time="0.006"/>
+  <testcase name="divide returns the correct result" classname="org.example.calculator.CalculatorTest" time="0.009"/>
+  <testcase name="add returns the correct result" classname="org.example.calculator.CalculatorTest" time="0.015"/>
+  <testcase name="subtract returns the correct result" classname="org.example.calculator.CalculatorTest" time="0.01"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
