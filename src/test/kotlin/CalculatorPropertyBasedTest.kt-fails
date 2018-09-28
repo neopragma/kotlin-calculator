@@ -1,0 +1,14 @@
+package com.neopragma.calculator
+
+import io.kotlintest.matchers.exactly
+import io.kotlintest.shouldBe
+import io.kotlintest.specs.StringSpec
+import io.kotlintest.properties.*
+
+class CalculatorPropertyBasedTest : StringSpec({
+    "addition" {
+        assertAll(6) { a: Double, b: Double ->
+            add(a, b) shouldBe exactly(a + b)
+        }
+    }
+})    

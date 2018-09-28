@@ -1,0 +1,13 @@
+package com.neopragma.calculator
+
+import io.kotlintest.matchers.exactly
+import io.kotlintest.shouldBe
+import io.kotlintest.specs.AnnotationSpec
+
+class CalculatorAnnotationSpecTest : AnnotationSpec() {    
+
+    @Test
+    fun adding_2_and_4_results_in_6() {
+        add(2.0, 4.0) shouldBe exactly(6.0)
+    }
+}
